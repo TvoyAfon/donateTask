@@ -1,0 +1,38 @@
+.footer {
+    height: var(--header-height);
+    flex-shrink: 1;
+    padding: 10px;
+    background: var(--header-bg);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    width: 100%;
+}
+
+.send-btn {
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    background: var(--mine-message-bg);
+    border-radius: 50%;
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+    transition: 300ms all;
+}
+
+.send-btn:hover {
+    opacity: 0.5;
+}

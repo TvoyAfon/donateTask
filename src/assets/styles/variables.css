@@ -1,0 +1,9 @@
+* {
+    --header-height: 70px;
+    --header-bg: #201a1e;
+    --base-color: #3276c4;
+    --mine-message-bg: #956abc;
+    --not-mine-message-bg: #261b27;
+    --chat-bg: linear-gradient(#3e0d4e, #0c4865);
+    --red-color: #ce4141;
+}

@@ -1,0 +1,26 @@
+.body {
+    flex-grow: 1;
+    height: calc(100svh - var(--header-height) * 2);
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    color: #fff;
+    background: var(--chat-bg);
+}
+
+.message {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mine {
+    background: var(--mine-message-bg);
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.not-mine {
+    background: var(--not-mine-message-bg);
+    margin-right: auto;
+    margin-left: 10px;
+}
